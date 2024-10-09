@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal</title>
+    <link rel="stylesheet" href="shipping.css">
+</head>
+<body>
+    <p>Amazon Shipping Calculator</p>
+    <p>Orders under $40 = +$10 shipping</p>
+    <p>Orders over $40 = free shipping.</p>
+
+    <input placeholder="cost of order" class="js-input css-cos-input" onkeydown="
+    eventkey(presskey);
+    ">
+    <button onclick="
+    calculateTotal()
+    " class="calculate-button">Calculate</button>
+    <p class="js-page-cost"></p>
+    <script src="shipping-cal.js"></script>
+</body>
+</html>
