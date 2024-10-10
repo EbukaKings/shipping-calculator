@@ -1,5 +1,5 @@
-function eventkey(presskey) {
-    if (event.key === 'enter') {
+function handleCostKeyDown(event) {
+    if (event.key === 'Enter') {
 calculateTotal();
 }
 };
